@@ -1,34 +1,45 @@
 # Mount-Inn-Responsive-Hotel-Website
 
-<h2>👉 <a href="https://the-mount-inn.netlify.app/">Live Website</a></h2>
+## 👉 [Live Website](https://the-mount-inn.netlify.app/)
 
-## Description
+A responsive hotel website template built to practice CSS layout fundamentals and mobile-responsive design patterns without a framework.
 
-This repository contains a responsive hotel website template, designed to showcase hotel services, room options, amenities, and contact information. The website is crafted using HTML, CSS, and JavaScript to ensure a fully responsive and smooth user experience across all devices.
+## What this demonstrates
 
-## Features
+- **Responsive Navigation**: Implemented a hamburger menu pattern using vanilla JavaScript to handle mobile state toggling.
+- **Layout Techniques**: Utilized CSS Grid for the photo gallery and Flexbox for navigation, footer, and service card components.
+- **Design System**: Implemented maintainable theming using CSS custom properties for color palettes and font stacks.
+- **UX Enhancements**: Integrated smooth scroll behavior for in-page navigation and responsive media queries ranging from 1335px to 405px.
+- **Semantic Structure**: Built with semantic HTML5 and external icons via Font Awesome 6.1.1.
 
-- **Responsive Design**: Ensures the website looks great on all devices, from desktops to smartphones.
-- **Navigation Bar**: Easy access to Home, Rooms, Amenities, Reviews, Contact, and About sections.
-- **Image Gallery**: Display stunning images of hotel rooms and facilities.
-- **Booking Form**: Allows users to make room reservations directly from the website.
-- **Testimonials**: Showcase customer reviews and testimonials.
+## Build/design decisions
+
+| Decision | Reasoning |
+| :--- | :--- |
+| **Desktop-first CSS** | Structured initially for large screens with breakpoint overrides for tablet and mobile responsiveness. |
+| **Vanilla JS** | Used for navigation toggling to practice DOM manipulation without framework overhead. |
+| **CSS Custom Properties** | Centralized theming (colors, typography) to ensure consistency across components. |
+
+## What I'd do differently now
+
+The current desktop-first approach using `max-width` breakpoints made managing responsive overrides across multiple sections complex. I would now implement a mobile-first approach using `min-width` breakpoints, which is more scalable and results in leaner CSS for smaller screens.
 
 ## Technologies Used
 
-- **HTML**: Structure and content of the website.
-- **CSS**: Styling, layout, and responsive design.
-- **JavaScript**: Interactive elements and enhanced user experience.
+- **HTML5**
+- **CSS3** (Flexbox, Grid, CSS Custom Properties)
+- **JavaScript** (Vanilla)
+- **Dependencies**: Font Awesome 6.1.1, Google Fonts (Playfair Display, Lato)
 
 ## Getting Started
 
 1. **Clone the Repository**: Clone the repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/mahmud035/Mount-Inn-Responsive-Hotel-Website.git
+   git clone git@github.com:mahmud035/mount-inn-responsive-hotel-website.git
    ```
 2. **Open the Project**: Navigate to the project directory and open the files in your preferred code editor.
 
-3. **Run the Project**: Open the index.html file in your browser to view the website.
+3. **Run the Project**: Open the `index.html` file in your browser to view the website.
 
 ## Contributing
 
