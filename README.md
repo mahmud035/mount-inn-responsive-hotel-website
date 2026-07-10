@@ -27,9 +27,21 @@ The current desktop-first approach using `max-width` breakpoints made managing r
 ## Technologies Used
 
 - **HTML5**
-- **CSS3** (Flexbox, Grid, CSS Custom Properties)
+- **CSS3** (Flexbox, Grid, CSS Custom Properties, smooth scroll)
 - **JavaScript** (Vanilla)
-- **Dependencies**: Font Awesome 6.1.1, Google Fonts (Playfair Display, Lato)
+- **Fonts**: Google Fonts — Open Sans & Quicksand
+- **Icons**: Font Awesome 6.1.1
+
+## Project structure
+
+```
+mount-inn-responsive-hotel-website/
+├── index.html      # single-page site: rooms/services, photo gallery, footer
+├── css/
+│   └── style.css   # layout, CSS custom-property theming, responsive media queries
+└── js/
+    └── script.js   # mobile hamburger-nav toggle
+```
 
 ## Getting Started
 
